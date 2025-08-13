@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>WeatherMate</title>
+        <meta name="description" content="Beautiful, fast weather app powered by Open‑Meteo." />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+            rel="stylesheet" />
+        <link rel="stylesheet" href="css/styles.css" />
+    </head>
+
+    <body>
+        <div id="app" class="app" style="overflow-x:hidden;">
+            <header class="header">
+                <div class="brand">
+                    <div class="logo" aria-hidden="true">⛅</div>
+                    <h1 class="title">WeatherMate</h1>
+                </div>
+
+                <form id="search-form" class="search" autocomplete="off">
+                    <div class="search-input-wrap">
+                        <input id="search-input" class="search-input" type="text"
+                            placeholder="Search city (e.g. Paris, Tokyo)" aria-label="Search city" />
+                            <button>Search</button>
+                        </div>
+                    </div>          
+                </form>
+            </header>
+            <!-- <main class="weather-body">
+                <div class="weather-info">
+                <h3 id="">Temp 33°C  🌦️</h3>
+                <p>London, New York </p>
+                </div>
+                <div class="weather-data">
+                    <span>Wind: 30 km/hr</span>
+                    <span>Air Quality: 30 km/hr</span>
+                    <span>Humidity: 30 km/hr</span>
+                    <span>Visibility: 30 km/hr</span>
+                </div>
+            </main> -->    
+        </div>
+        <script src="js/script.js" defer></script>
+    </body>
+
+</html>
