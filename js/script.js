@@ -23,9 +23,10 @@ async function getData(city) {
   return output;
 }
 
+let weatherBody = document.createElement("main");
+weatherBody.classList.add("weather-body");
 function displayData(city) {
-  let weatherBody = document.createElement("main");
-  weatherBody.classList.add("weather-body");
+  weatherBody.innerHTML = "";
   weatherBody.innerHTML = `
               <div class="weather-info">
                 <h3 id="">Temp ${city.main.temp}°C  
